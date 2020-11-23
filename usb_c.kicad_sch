@@ -2617,7 +2617,7 @@
     (property "Value" "10k" (id 1) (at 205.74 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 201.168 36.195 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402" (id 2) (at 201.168 36.195 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 203.2 36.195 0)

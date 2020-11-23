@@ -893,7 +893,7 @@
   (hierarchical_label "FTDI_USB2_D+" (shape input) (at 64.135 94.615 180)
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (hierarchical_label "FTDI_GPIO" (shape input) (at 106.68 104.775 0)
+  (hierarchical_label "SD_MUX_SEL" (shape input) (at 106.68 104.775 0)
     (effects (font (size 1.27 1.27)) (justify left))
   )
 
@@ -1157,7 +1157,7 @@
     (uuid "e6db629a-1495-4c99-8408-835b9fc81b0e")
     (property "Reference" "RN2" (id 0) (at 224.155 75.565 90))
     (property "Value" "100" (id 1) (at 224.155 78.105 90))
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 224.155 77.47 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402" (id 2) (at 224.155 77.47 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 224.155 84.455 0)

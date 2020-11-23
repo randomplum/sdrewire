@@ -186,7 +186,7 @@
     (property "Sheet file" "ftdi.kicad_sch" (id 1) (at 193.04 135.7639 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "FTDI_GPIO" input (at 193.04 99.06 180)
+    (pin "SD_MUX_SEL" input (at 193.04 99.06 180)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "FTDI_USB2_D-" input (at 193.04 106.68 180)
@@ -441,7 +441,7 @@
       (reference "R7") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/4f6df5ed-6e39-4577-984a-e2a907baad25"
-      (reference "RN1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "RN1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
     (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/7bc85c6f-928d-4fd1-b468-68f1bab9a263"
       (reference "U1") (unit 1) (value "MIC5363-3.3YMT") (footprint "Package_DFN_QFN:DFN-6-1EP_1.2x1.2mm_P0.4mm_EP0.3x0.94mm_PullBack")
@@ -741,13 +741,13 @@
       (reference "R39") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/9a2541d6-5741-431b-b6ce-39b346f32909"
-      (reference "RN1") (unit 2) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "RN1") (unit 2) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/41e67e00-5da7-46a9-a59c-43d2bce3f7ae"
-      (reference "RN1") (unit 3) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "RN1") (unit 3) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/2f610354-04a0-49c9-b34b-0d7e8590c55d"
-      (reference "RN1") (unit 4) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "RN1") (unit 4) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/f35e2ada-e21f-4674-9019-244dd6c3bfa7"
       (reference "U11") (unit 1) (value "SN74LVC1G14DRL") (footprint "Package_TO_SOT_SMD:SOT-553")
@@ -819,7 +819,7 @@
       (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/90294f18-8ba6-43c7-a782-8d982c77104a/e6db629a-1495-4c99-8408-835b9fc81b0e"
-      (reference "RN2") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "RN2") (unit 1) (value "100") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
     (path "/90294f18-8ba6-43c7-a782-8d982c77104a/b5775981-3aec-4af8-ba37-dc82c76f85d2"
       (reference "U5") (unit 1) (value "SN74AXC4T774RSV") (footprint "Custom:QFN-16_1.8x2.6_Pitch0.4mm")
