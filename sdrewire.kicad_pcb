@@ -4738,7 +4738,7 @@
     (property "Sheet name" "FTDI")
     (path "/90294f18-8ba6-43c7-a782-8d982c77104a/29c7646e-fe4e-4fdc-9711-e7807d94fb02")
     (attr exclude_from_pos_files)
-    (fp_text reference "JP1" (at 0 1.8 90) (layer "B.SilkS")
+    (fp_text reference "JP1" (at 0 1.8 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 50f64fc5-69ea-4850-a715-c4f267310537)
     )

@@ -614,6 +614,9 @@
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/9aac7c68-04e0-4293-9c4e-3741c7a4dda8"
       (reference "#PWR0180") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/c70363d9-a2f6-42b1-a53f-accbb3bc2389"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/7d77d9a4-9030-4113-acf4-43901edf5ca0"
       (reference "C19") (unit 1) (value "6pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
