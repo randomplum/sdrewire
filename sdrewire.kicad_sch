@@ -450,7 +450,7 @@
       (reference "U2") (unit 1) (value "HD3SS3220") (footprint "Custom:WQFP-30-1EP_4.6x2.6mm_P0.4mm_EP3.2x1.2mm")
     )
     (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/870d3a02-cb78-4628-8644-588dc8e3aeb3"
-      (reference "U3") (unit 1) (value "MG2040") (footprint "Glasgow:UDFN-18-3EP_5.5x1.5mm_P0.5mm_EP0.5x0.5mm")
+      (reference "U3") (unit 1) (value "MG2040") (footprint "Custom:UDFN-18-3EP_5.5x1.5mm_P0.5mm_EP0.5x0.5mm")
     )
     (path "/0e4489b7-2aec-4913-912e-2b46d04de503/6871d4bb-01f2-4b14-b84b-be94bbed69e3"
       (reference "#PWR04") (unit 1) (value "+5V") (footprint "")

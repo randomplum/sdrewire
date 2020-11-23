@@ -437,11 +437,11 @@
   (junction (at 133.985 58.42) (diameter 1.016) (color 0 0 0 0))
   (junction (at 136.525 58.42) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 155.575 93.345))
-  (no_connect (at 117.475 90.805))
+  (no_connect (at 155.575 90.805))
   (no_connect (at 155.575 73.025))
   (no_connect (at 155.575 75.565))
-  (no_connect (at 155.575 90.805))
+  (no_connect (at 117.475 90.805))
+  (no_connect (at 155.575 93.345))
 
   (wire (pts (xy 91.44 73.025) (xy 91.44 74.295))
     (stroke (width 0) (type solid) (color 0 0 0 0))

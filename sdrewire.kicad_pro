@@ -116,7 +116,7 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_via_annular_width": 0.12,
         "min_via_annulus": 0.049999999999999996,
         "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
@@ -450,7 +450,7 @@
   },
   "sheets": [
     [
-      "e71ce33c-baa1-4b4a-969d-0feb847dc410",
+      "8c353b45-27dd-4bbb-9eab-507adc80d9f8",
       ""
     ],
     [
