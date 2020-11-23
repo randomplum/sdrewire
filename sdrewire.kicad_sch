@@ -687,7 +687,7 @@
       (reference "J3") (unit 1) (value "Micro_SD_Card") (footprint "Connector_Card:microSD_HC_Wuerth_693072010801")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/3dfde4e1-e2b4-4c82-9e60-b450fe3457ff"
-      (reference "J4") (unit 1) (value "Conn_01x08") (footprint "Custom:uSD_PCB")
+      (reference "J4") (unit 1) (value "uSD_edge_contacts") (footprint "Custom:uSD_PCB")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/eef0468d-85b1-4711-baff-d7b15d521f20"
       (reference "Q1") (unit 1) (value "DMG1032UV") (footprint "Package_TO_SOT_SMD:SOT-563")
@@ -779,6 +779,9 @@
     (path "/90294f18-8ba6-43c7-a782-8d982c77104a/f84eb199-1f70-4b7b-a70f-a0173dc579e5"
       (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
+    (path "/90294f18-8ba6-43c7-a782-8d982c77104a/2cbf9694-901a-4827-b8b9-a98832944693"
+      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
+    )
     (path "/90294f18-8ba6-43c7-a782-8d982c77104a/cb7477b1-b508-4d65-a171-f13ef2da9e58"
       (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
     )
@@ -814,6 +817,9 @@
     )
     (path "/90294f18-8ba6-43c7-a782-8d982c77104a/6411e4aa-f8c6-4ddd-aeef-382dc6b0b2f9"
       (reference "J2") (unit 1) (value "Conn_01x06") (footprint "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal")
+    )
+    (path "/90294f18-8ba6-43c7-a782-8d982c77104a/29c7646e-fe4e-4fdc-9711-e7807d94fb02"
+      (reference "JP1") (unit 1) (value "Jumper_3_Bridged12") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels")
     )
     (path "/90294f18-8ba6-43c7-a782-8d982c77104a/3dc4b134-a4f1-4e34-92cf-256dca50be7e"
       (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
