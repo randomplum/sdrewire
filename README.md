@@ -18,7 +18,7 @@ Inspiried by the SDWire.
 - Auxiliary port featuring:
   - UART
   - 2 GPIO (1x output only)
-  - 1.8V/3.3V capable
+  - 1.2V/1.8V/3.3V capable
 
 Currenlty SDReWire is still in testing and development phase.
 
@@ -27,7 +27,7 @@ Currenlty SDReWire is still in testing and development phase.
 In case you wonder what exact components are used, here is the gist:
 
 - USB 3.1 Gen1 card reader Genesys Logic GL3224
-- TS3DDR4000ZBAR memory mux cheap used for SD signals
+- TS3DDR4000ZBAR mux IC used for SD signals
 - FTDI FT230XQ provides GPIO for mux as well as auxiliary UART and GPIO
 - USB2422 USB 2.0 Hub to interface GL3224 and FTDI FT230XQ
   
