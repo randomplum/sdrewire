@@ -186,7 +186,7 @@
     (property "Sheet file" "ftdi.kicad_sch" (id 1) (at 193.04 135.7639 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "SD_MUX_SEL" input (at 193.04 99.06 180)
+    (pin "SD_MUX_SEL" output (at 193.04 99.06 180)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "FTDI_USB2_D-" input (at 193.04 106.68 180)

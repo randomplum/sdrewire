@@ -980,7 +980,7 @@
   (hierarchical_label "FTDI_USB2_D+" (shape input) (at 64.135 94.615 180)
     (effects (font (size 1.27 1.27)) (justify right))
   )
-  (hierarchical_label "SD_MUX_SEL" (shape input) (at 106.68 104.775 0)
+  (hierarchical_label "SD_MUX_SEL" (shape output) (at 106.68 104.775 0)
     (effects (font (size 1.27 1.27)) (justify left))
   )
 
