@@ -43,7 +43,7 @@
   (wire (pts (xy 83.82 60.96) (xy 193.04 60.96))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (wire (pts (xy 83.82 62.865) (xy 193.04 62.865))
+  (wire (pts (xy 83.82 62.992) (xy 193.04 62.992))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 83.82 72.39) (xy 93.345 72.39))
@@ -219,13 +219,13 @@
     (pin "GL_USB3_TX+" input (at 193.04 55.88 180)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "GL_USB3_RX-" input (at 193.04 62.865 180)
+    (pin "GL_USB3_RX-" input (at 193.04 60.96 180)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "GL_USB3_TX-" input (at 193.04 57.785 180)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "GL_USB3_RX+" input (at 193.04 60.96 180)
+    (pin "GL_USB3_RX+" input (at 193.04 62.992 180)
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
@@ -285,7 +285,7 @@
     (pin "USB3_TX-" input (at 83.82 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (pin "USB3_RX-" input (at 83.82 62.865 0)
+    (pin "USB3_RX-" input (at 83.82 62.992 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
@@ -323,11 +323,11 @@
     (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/96e7cfa2-d78d-4359-a4f2-73b6a3bfee88"
       (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/a8a91c4e-493b-47af-a72b-5154e399d81c"
+      (reference "#PWR027") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/c5b80026-bae7-462c-a2ff-03f115490d6e"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/0abcf277-4e71-4211-91ce-ee819d069470"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/ed460648-f5ca-4d35-ac56-db163e5424da"
       (reference "#PWR0103") (unit 1) (value "+3V3") (footprint "")
@@ -358,9 +358,6 @@
     )
     (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/3f84a4af-30a4-49cc-90d1-ce6069cc5968"
       (reference "#PWR0117") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/1a2d14c5-8054-4a02-a9ad-336c241798af"
-      (reference "#PWR0118") (unit 1) (value "+5V") (footprint "")
     )
     (path "/e0b82ad0-c8dc-42b5-89fe-1e3c4078b662/f3178507-fbc0-4aa4-9b94-5f268bc434e9"
       (reference "#PWR0119") (unit 1) (value "+5V") (footprint "")
@@ -527,7 +524,7 @@
     (path "/0e4489b7-2aec-4913-912e-2b46d04de503/5c694686-fecf-4c41-a050-9370fbdb0eef"
       (reference "U4") (unit 1) (value "USB2422") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
-    (path "/0e4489b7-2aec-4913-912e-2b46d04de503/f8c73bea-1574-4554-866c-f73afcca7c87"
+    (path "/0e4489b7-2aec-4913-912e-2b46d04de503/fb78bfaa-2f08-4d39-9727-fa7eb91e74a5"
       (reference "Y1") (unit 1) (value "24MHz") (footprint "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/30ecddf9-e4f5-4210-9f31-50222908e018"
@@ -605,9 +602,6 @@
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/7e2a9ae2-52d3-42fc-b0a2-fb4b124c1e96"
       (reference "#PWR0176") (unit 1) (value "GND") (footprint "")
     )
-    (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/d33655a0-3917-42cf-8137-51dea6782554"
-      (reference "#PWR0177") (unit 1) (value "GND") (footprint "")
-    )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/080b1041-4b1a-443a-b7e9-9c913b8df872"
       (reference "#PWR0178") (unit 1) (value "GND") (footprint "")
     )
@@ -648,7 +642,7 @@
       (reference "C47") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/a1762ea9-e0f3-4a56-8d0c-1598b7ae886e"
-      (reference "C48") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C48") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0201_0603Metric")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/8df03897-0ab3-4246-ad43-0edc1bb7b129"
       (reference "C49") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -699,7 +693,7 @@
       (reference "Q1") (unit 2) (value "DMG1032UV") (footprint "Package_TO_SOT_SMD:SOT-563")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/506a97ae-31f9-41f5-8478-55648777ef7f"
-      (reference "Q2") (unit 1) (value "BSS84") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q2") (unit 1) (value "DMG1013UW") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
     )
     (path "/3bfbe0d7-6f08-4520-8f95-1f9971e2b376/56c9b264-0537-4a77-91b3-3c31d24e6c23"
       (reference "Q3") (unit 1) (value "DMG1032UV") (footprint "Package_TO_SOT_SMD:SOT-563")
