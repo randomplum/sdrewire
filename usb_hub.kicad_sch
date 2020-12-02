@@ -437,10 +437,10 @@
   (junction (at 134.112 58.42) (diameter 1.016) (color 0 0 0 0))
   (junction (at 136.652 58.42) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 155.702 93.472))
   (no_connect (at 117.602 90.932))
-  (no_connect (at 155.702 75.692))
   (no_connect (at 155.702 73.152))
+  (no_connect (at 155.702 93.472))
+  (no_connect (at 155.702 75.692))
   (no_connect (at 155.702 90.932))
 
   (wire (pts (xy 91.44 73.152) (xy 91.44 74.422))
